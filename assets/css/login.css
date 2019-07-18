@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+.top{
+    margin-bottom: 40px;
+}
+
+.box-login{
+    margin-top: 400px;
+    margin: auto;
+    padding: 50px;
+    background-color: white;
+    border-radius: 5px;
+    max-width: 600px;
+}
+
+.box-login .h1{
+    margin-bottom: 20px;
+}
+
+.form-control{
+    box-shadow: inset 0px 0px 5px rgb(0,0,0,.1);
+    border-radius: 20px;
+}
+
+.btn{
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
