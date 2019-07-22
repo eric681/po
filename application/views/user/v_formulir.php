@@ -12,41 +12,42 @@
 <body>
 
     <div class="container">
+        <h1 class="text-center mt-4 mb-4">Formulir Pendaftaran</h1>
         <form action="<?= base_url('user/add_siswa') ?>" method="post">
-            <div class="row">
+            <div class="row mb-2">
                 <div class="col-md-2">Nama</div>
                 <input type="text" name="nama" class="col-md-10">
             </div>
-            <div class="row">
+            <div class="row mb-2">
                 <div class="col-md-2">Alamat</div>
                 <input type="text" name="alamat" class="col-md-10">
             </div>
-            <div class="row">
+            <div class="row mb-2">
                 <div class="col-md-2">Tempat Lahir</div>
                 <input type="text" name="tempat_lahir" class="col-md-10">
             </div>
-            <div class="row">
+            <div class="row mb-2">
                 <div class="col-md-2">Tanggal Lahir</div>
-                <input type="date" name="tanggal_lahir" class="col-md-10">
+                <input type="date" name="tanggal_lahir" class="col-md-2">
             </div>
-            <div class="row">
+            <div class="row mb-2">
                 <div class="col-md-2">Agama</div>
                 <input type="text" name="agama_id" class="col-md-10">
             </div>
-            <div class="row">
+            <div class="row mb-2">
                 <div class="col-md-2">Jenis Kelamin</div>
                 <input type="text" name="jk_id" class="col-md-10">
             </div>
-            <div class="row">
+            <div class="row mb-2">
                 <div class="col-md-2">Sekolah Asal</div>
                 <input type="text" name="sekolah_asal" class="col-md-10">
             </div>
-            <div class="row">
+            <div class="row mb-2">
                 <div class="col-md-2">Jurusan</div>
                 <input type="text" name="jurusan_id" class="col-md-10">
             </div>
 
-            <input type="submit" value="Send">
+            <input type="submit" class="btn btn-success btn-block" value="Send">
         </form>
 
 

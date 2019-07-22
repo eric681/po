@@ -51,7 +51,7 @@ class Welcome extends CI_Controller {
 					];
 					$this->session->set_userdata($data);
 					if ($user['role_id'] == 1) {
-						redirect('admin');
+						redirect('user');
 					}else {
 						redirect('user');
 					}
@@ -110,6 +110,7 @@ class Welcome extends CI_Controller {
 					$this->input->post('password1'),
 					PASSWORD_DEFAULT
 				),
+				'is_active' => 1,
 				'role_id' => 1,
 				'date_created' => time()
 			];

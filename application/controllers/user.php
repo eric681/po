@@ -15,4 +15,8 @@ class User extends CI_Controller
         $this->load->view('user/v_formulir');
     }
 
+    function add_siswa(){
+        redirect('user');
+    }
+
 }
